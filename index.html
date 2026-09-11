@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devine le nombre</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/devine.js"></script>
+</head>
+<body>
+  <main class="carte">
+    <h1>Devine le nombre</h1>
+    <p class="consigne">Un nombre entre 0 et 100 se cache ici. Trouvez-le en le moins d'essais possible.</p>
+
+    <form id="formulaire" action="#" method="post">
+      <div class="champ">
+        <label for="txtNombre">Nombre à essayer</label>
+        <input type="number" name="txtNombre" id="txtNombre" min="0" max="100" inputmode="numeric" autocomplete="off">
+      </div>
+      <div class="boutons">
+        <button type="submit" id="btnGo" class="principal">Vérifier nombre</button>
+        <button type="button" id="btnReset">Réinitialiser jeu</button>
+        <button type="button" id="btnNbEssais">Connaître nombre d'essais</button>
+      </div>
+    </form>
+
+    <p id="error" class="erreur" aria-live="polite"></p>
+    <p id="info" class="info" aria-live="polite"></p>
+  </main>
+</body>
+</html>
