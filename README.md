@@ -3,17 +3,19 @@
 A number between 0 and 100 is drawn when the page loads. Type a guess, and the
 page tells you whether the secret is higher or lower, until you land on it.
 
-Plain HTML, CSS and JavaScript. No framework, no build step, no dependency:
-open the file and play.
+The page sits on the layout and stylesheet that the ASP.NET Core project
+template ships, Bootstrap 5.1.0 included, so it looks like any freshly
+created .NET web app. One script, no JavaScript library, no build step: open
+the file and play.
 
 > The user interface is in French, as is the code vocabulary. This README and
 > the repository metadata are in English.
 
 ## Screenshots
 
-![A centred white card on a warm off-white background. The title Devine le nombre, a one-line instruction, a wide numeric field showing 90, three buttons of which the first, Vérifier nombre, is filled in brick red, then two lines under the buttons: Le nombre est trop grand in red and Vous êtes maintenant rendu à 3 essais in green](preview.png)
+![A white page in the ASP.NET Core template style: a white navigation bar with the brand Devine le nombre and two links, a large centred title, a one-line instruction, then a Bootstrap card holding a wide numeric field showing 10, three buttons of which the first, Vérifier nombre, is filled in blue, and two lines underneath: Le nombre est trop petit in red and Vous êtes maintenant rendu à 3 essais in green. Below the card, a short list of rules, and a grey footer reading © 2026 - Devine le nombre - Licence](preview.png)
 
-![The same card on a phone: the three buttons stack full width, the field shows 42, and the two lines read Le nombre est trop petit and Vous êtes maintenant rendu à 1 essai](preview-mobile.png)
+![The same page on a phone: the navigation collapses behind a toggler, the card fills the width, the field shows 42, and the two lines read Le nombre est trop petit and Vous êtes maintenant rendu à 1 essai](preview-mobile.png)
 
 ## How it works
 
@@ -44,7 +46,9 @@ Open `index.html` in a browser. There is nothing to install.
 
 ## Stack
 
-HTML, CSS and vanilla JavaScript. One stylesheet, one script, no library.
+HTML, Bootstrap 5.1.0 and vanilla JavaScript. The `site.css` is the one the
+ASP.NET Core template generates, reproduced as is, with one rule added for
+the page. One script, no JavaScript library.
 
 ## Résumé
 
@@ -57,8 +61,9 @@ saisie vide, décimale ou hors bornes est refusée avant d'être comptée. Deux
 lignes se partagent l'affichage, l'une pour les indices et les refus, l'autre
 pour le compteur et la victoire ; consulter le compteur laisse l'indice en
 place. La victoire verrouille le champ jusqu'à la réinitialisation, qui tire
-un nouveau nombre et remet tout à zéro. Interface et vocabulaire du code en
-français.
+un nouveau nombre et remet tout à zéro. La mise en page reprend le gabarit
+ASP.NET Core tel qu'il est livré, Bootstrap 5.1.0 compris. Interface et
+vocabulaire du code en français.
 
 ## Licence
 
