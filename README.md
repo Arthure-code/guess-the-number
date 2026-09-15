@@ -5,7 +5,6 @@ page tells you whether the secret is higher or lower, until you land on it.
 
 One script, no JavaScript library, no build step: open the file and play.
 
-
 ## Screenshots
 
 ![A white page: a white navigation bar with the brand Devine le nombre and two links, a large centred title, a one-line instruction, then a Bootstrap card holding a wide numeric field showing 10, three buttons of which the first, Vérifier nombre, is filled in blue, and two lines underneath: Le nombre est trop petit in red and Vous êtes maintenant rendu à 3 essais in green. Below the card, a short list of rules, and a grey footer reading © 2026 - Devine le nombre - Licence](preview.png)
@@ -55,8 +54,7 @@ saisie vide, décimale ou hors bornes est refusée avant d'être comptée. Deux
 lignes se partagent l'affichage, l'une pour les indices et les refus, l'autre
 pour le compteur et la victoire ; consulter le compteur laisse l'indice en
 place. La victoire verrouille le champ jusqu'à la réinitialisation, qui tire
-un nouveau nombre et remet tout à zéro. Interface et vocabulaire du code en
-français.
+un nouveau nombre et remet tout à zéro.
 
 ## Licence
 
