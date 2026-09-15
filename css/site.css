@@ -1,5 +1,5 @@
-/* Les deux premieres parties sont le site.css et le _Layout.cshtml.css du
-   gabarit ASP.NET Core, repris tels quels. Seule la derniere est a la page. */
+/* Base de la page : taille de texte selon l'écran, anneau de focus visible,
+   pied de page fixé en bas, couleurs des liens et du bouton principal. */
 
 html {
   font-size: 14px;
