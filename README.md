@@ -5,8 +5,6 @@ page tells you whether the secret is higher or lower, until you land on it.
 
 One script, no JavaScript library, no build step: open the file and play.
 
-> The user interface is in French, as is the code vocabulary. This README and
-> the repository metadata are in English.
 
 ## Screenshots
 
